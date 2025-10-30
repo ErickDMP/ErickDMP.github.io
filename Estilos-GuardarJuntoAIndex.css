@@ -1,0 +1,65 @@
+  /*.container 
+  width: 150px; Ancho del cuadro 
+  padding: 20px; /* Espacio entre el texto y los bordes 
+  border: 2px solid #faf8f8;  Borde del cuadro 
+  background-color: #466ef3;  Color de fondo del cuadro 
+  margin-top: 20px;  Espacio fuera del cuadro 
+  margin-bottom: 20px;
+  border-radius: 8px;  Bordes redondeados 
+  text-align: center;  Centra el texto dentro del cuadro 
+ */
+body {
+    background-color: lch(11.1% 63.54 304.66);
+color: aliceblue;
+}
+
+h1 { 
+    color:rgb(255, 255, 255);
+    
+    text-align: center;
+    font-size: 35px;
+}
+h2 { 
+    color:rgb(255, 255, 255);
+    text-align: right;
+    font-size: 35px;
+}
+h3{ 
+    color: aqua;
+    text-align: center;
+    font-size: 35px;
+    text-decoration:underline 10px green solid;
+    border: 10px solid black;
+}
+header{
+    
+}
+li{
+    
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%px;
+    margin-bottom: 50px;
+   
+
+}
+ol{
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 10%;
+    padding: 0%;
+    color: white;
+
+}
+article{
+    margin: 5%;
+    font-size: 32px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
