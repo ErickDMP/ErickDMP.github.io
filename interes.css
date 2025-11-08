@@ -1,0 +1,13 @@
+body {
+    background-color: lch(11.1% 63.54 304.66);
+    color: aliceblue;
+    padding: auto;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    border-radius: 3rem;
+}
