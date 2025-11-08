@@ -1,18 +1,21 @@
-  /*.container 
-  width: 150px; Ancho del cuadro 
-  padding: 20px; /* Espacio entre el texto y los bordes 
-  border: 2px solid #faf8f8;  Borde del cuadro 
-  background-color: #466ef3;  Color de fondo del cuadro 
-  margin-top: 20px;  Espacio fuera del cuadro 
-  margin-bottom: 20px;
-  border-radius: 8px;  Bordes redondeados 
-  text-align: center;  Centra el texto dentro del cuadro 
- */
 body {
     background-color: lch(11.1% 63.54 304.66);
-color: aliceblue;
+    color: aliceblue;
+    padding: auto;
+    text-align: center;
 }
-
+button{
+    padding: 0;
+    margin-top: 10px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 20px;
+}
+img{
+    border-radius: 2rem;
+}
 h1 { 
     color:rgb(255, 255, 255);
     
@@ -21,7 +24,7 @@ h1 {
 }
 h2 { 
     color:rgb(255, 255, 255);
-    text-align: right;
+    text-align: center;
     font-size: 35px;
 }
 h3{ 
@@ -48,18 +51,8 @@ ol{
     font-size: 10%;
     padding: 0%;
     color: white;
-
 }
 article{
     margin: 5%;
     font-size: 32px;
-}
-a{
-    color: white;
-    text-decoration: none;
-}
-img{
-    font-size: medium;
-    text-align: center;
-
 }
