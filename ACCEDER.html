@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ACCEDER.css">
+    <title>Acceder</title>
+</head>
+<body>
+
+    <body>
+  <h1>Registro</h1>
+  <p> Para el registro recuerda que si eres compañero de clase o profesor no debes registrarte ve a iniciar sesión y sigue las instrucciones</p>
+  <p>Registro "NO REQUIERE UN CORREO REAL" el correo de registro se guarda como un nuevo usuario en una base de datos de supabase y la contraseña tambien pero cifrada</p>
+  
+  <p> Contraeña requiere al menos 6 caracteres</p>
+  <form id="signup-form">
+    <input id="signup-email" type="email" placeholder="Escribe tu correo para registro" required />
+    <input id="signup-password" type="password" placeholder="Escribe tu contraseña" required />
+    <button type="submit">Registrarse</button>
+  </form>
+
+  <h1>Iniciar sesión</h1>
+  <p>Si eres un compañero de clase o profesor debe iniciar sección con tu nombre + @gmail.com y la clave son numeros del 1 al 6 (132456)</p>
+  <p>Ejemplo usuario: profesor@gmail.com clave:12345</p>
+  <p>La confirmación de email esta desactiva por si se registra alguien</p>
+  <form id="signin-form">
+    <input id="signin-email" type="email" placeholder="Correo" required />
+    <input id="signin-password" type="password" placeholder="Contraseña" required />
+    <button type="submit">Entrar</button>
+  </form>
+
+  <button id="signout-btn">Cerrar sesión</button>
+
+     <script type="module">
+    import { supabase } from './supabaseziha.js'
+
+    // Registro
+    document.getElementById('signup-form').addEventListener('submit', async (e) => {
+      e.preventDefault()
+      const email = document.getElementById('signup-email').value
+      const password = document.getElementById('signup-password').value
+
+      const { data, error } = await supabase.auth.signUp({ email, password })
+      if (error) {
+        alert('Error al registrarse: ' + error.message)
+      } else {
+        alert('Registro exitoso 🎉')
+        console.log(data)
+      }
+    })
+
+  // Login
+document.getElementById('signin-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const email = document.getElementById('signin-email').value;
+  const password = document.getElementById('signin-password').value;
+
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+
+  if (error) {
+    alert('❌ Error al iniciar sesión: ' + error.message);
+  } else {
+    alert('✅ Inicio de sesión correcto');
+    // Guardamos el usuario en localStorage para usarlo en perfil.html
+    localStorage.setItem('user', JSON.stringify(data.user));
+    // Redirige a la página de perfil
+    window.location.href = 'menu_perfil.html';
+  }
+});
+
+
+    // Logout
+    document.getElementById('signout-btn').addEventListener('click', async () => {
+      await supabase.auth.signOut()
+      alert('Sesión cerrada 👋')
+    })
+  </script>
+  <p> <a href="https://supabase.com/">Supabase web gratuita para crear proyectos pequeños</a></p>
+  <a href="https://supabase.com/"><img src="supabase.png"></a>
+</body>
+</html>
