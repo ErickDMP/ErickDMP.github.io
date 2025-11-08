@@ -1,0 +1,66 @@
+body {
+    background-color: lch(11.1% 63.54 304.66);
+    color: aliceblue;
+    padding: auto;
+    text-align: center;
+}
+button{
+    padding: 0;
+    margin-top: 10px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 20px;
+}
+img{
+    border-radius: 2rem;
+}
+h1 { 
+    color:rgb(255, 255, 255);
+    
+    text-align: center;
+    font-size: 35px;
+}
+h2 { 
+    color:rgb(255, 255, 255);
+    text-align: right;
+    font-size: 35px;
+}
+h3{ 
+    color: aqua;
+    text-align: center;
+    font-size: 35px;
+    text-decoration:underline 10px green solid;
+    border: 10px solid black;
+}
+li{
+    
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%px;
+    margin-bottom: 50px;
+}
+ol{
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 10%;
+    padding: 0%;
+    color: white;
+}
+article{
+    margin: 5%;
+    font-size: 32px;
+}
+input{
+    height: 25px;
+    width: 200px;
+}
+button{
+    height: 30px;
+    width: 90px;
+}
