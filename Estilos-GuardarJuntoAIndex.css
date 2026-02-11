@@ -61,5 +61,9 @@ a{
 img{
     font-size: medium;
     text-align: center;
-
+}
+#PRIMERO:hover{
+      color: red;
+    font-size: 40px;
+  
 }
