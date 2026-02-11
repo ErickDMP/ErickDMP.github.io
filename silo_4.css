@@ -60,3 +60,11 @@ p{
     color: black;
     text-align: left;
 }
+#siloone{
+    font-size: 35px;
+}
+#siloone:hover{
+    font-size: 35px;
+    color: rgb(141, 9, 9);
+}
+
