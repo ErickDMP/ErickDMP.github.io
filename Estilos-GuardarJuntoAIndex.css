@@ -9,7 +9,7 @@
   text-align: center;  Centra el texto dentro del cuadro 
  */
 body {
-    background-color: lch(11.1% 63.54 304.66);
+    background: radial-gradient(circle, #01082d, #330244);
 color: aliceblue;
 }
 
@@ -52,7 +52,8 @@ ol{
 }
 article{
     margin: auto;
-    font-size: 32px;
+    font-size: 36px;
+      width: 1200px;
 }
 a{
     color: white;
@@ -67,4 +68,5 @@ img{
     font-size: 40px;
   
 }
+
 
