@@ -1,19 +1,26 @@
-@media screen and (max-width:420px) {
-    body {
-        width: 420px;
-    }
-
-    ol {
-        flex-direction: column;
-    }
-
-}
 
 body {
     background: radial-gradient(circle, #01082d, #45065a);
     color: aliceblue;
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
+}
+
+#banner_horizontal {
+    border-radius: 5%;
+}
+
+#emcabezado1 {
+    display: flex;
+    position: flex;
+    font-size: 34px;
+}
+
+#frase_encabezado {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 h1 {
@@ -48,6 +55,7 @@ ol {
     color: white;
 
 }
+
 #deco_main_menu {
     transition: all 0.3s ease;
 }
@@ -57,6 +65,7 @@ ol {
     color: rgb(165, 180, 255);
     transform: scale(1.2);
 }
+
 article {
     max-width: 900px;
     margin: auto;
@@ -89,6 +98,7 @@ nav {
     border-radius: 10px;
 
 }
+
 #compartir {
     font-size: 20px;
 }
@@ -121,18 +131,37 @@ footer {
     position: flex;
     text-align: center;
 }
+@media screen and (max-width:740px) {
+    body {
+        width: 600px;
+        margin: auto;
+    }
 
-#banner_horizontal {
-    border-radius: 5%;
+    ol {
+        flex-direction: column;
+        margin: auto;
+    }
+    nav{
+        width: 400px;
+        height: 300px;
+    }
+
+    #banner_horizontal {
+        display: none;
+    }
+
+    #emcabezado1 {
+        display: none;
+    }
+
+    #frase_encabezado {
+        display: none;
+    }
+
+    #banner_encabezado_horizontal {
+        display: flex;
+        position: relative;
+
+    }
 }
-#emcabezado1{
-    display: flex;
-    position: flex;
-    font-size: 34px;
-}
-#frase_encabezado{
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
+
