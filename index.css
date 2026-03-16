@@ -1,13 +1,10 @@
-@media (max-width: 400px) {
-
-    nav {
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width:420px) {
+    body {
+        width: 420px;
     }
 
-    nav a {
-        display: block;
-        margin: 10px 0;
+    ol {
+        flex-direction: column;
     }
 
 }
@@ -47,10 +44,11 @@ li {
     color: rgb(255, 255, 255);
     font-size: 32px;
     text-align: center;
-    margin-right: 100px;
+    margin-right: 75px;
 }
 
 ol {
+    display: flex;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     font-size: 10%;
@@ -59,11 +57,11 @@ ol {
 
 }
 
-article{
-max-width:900px;
-margin:auto;
-font-size:18px;
-line-height:1.7;
+article {
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
 a {
@@ -84,46 +82,65 @@ img {
     transition: 0.5s;
     color: rgb(165, 180, 255);
     transform: scale(1.2);
-    text-decoration-line: underline;
 }
 
 nav a {
     display: inline-block;
 }
 
-nav{
-display:flex;
-justify-content:center;
-gap:25px;
-}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
 
-li{
-list-style:none;
-
 }
-#compartir{
+#compartir {
     font-size: 20px;
 }
-#compartir:hover{
+
+#compartir:hover {
     font-size: 20px;
     color: rgb(120, 4, 4);
 }
-footer{
+
+footer {
     text-align: center;
 }
-#texto_final{
+
+#texto_final {
     text-align: center;
 }
-#info_derecha{
+
+#info_derecha {
     position: flex;
     text-align: center;
 }
-#imagenes_1{
+
+#imagenes_1 {
     position: flex;
-    border: 1px solid black;
+    text-align: center;
+
+}
+
+#I1 {
+    position: flex;
     text-align: center;
 }
-#I1{
+
+#banner_horizontal {
+    border-radius: 5%;
+}
+#emcabezado1{
+    display: flex;
     position: flex;
-    text-align: center;
+    font-size: 34px;
+}
+#frase_encabezado{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
