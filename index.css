@@ -68,8 +68,7 @@ ol {
 }
 
 article {
-    max-width: 900px;
-    margin: auto;
+    margin: 5%;
     font-size: 18px;
     line-height: 1.7;
 }
