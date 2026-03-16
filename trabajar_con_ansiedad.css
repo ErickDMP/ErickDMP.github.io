@@ -58,12 +58,12 @@ a{
     color: white;
     text-decoration: none;
 }
-#banner_horizontal {
-    border-radius: 5%;
+#banner_horizontal{
+border-radius:5%;
 }
 #emcabezado1{
     display: flex;
-    position: flex;
+
     font-size: 34px;
 }
 #frase_encabezado{
@@ -71,4 +71,13 @@ a{
     padding-left: 20px;
     padding-right: 20px;
     
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+
 }

@@ -4,15 +4,40 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
 }
+#banner_horizontal{
+border-radius:5%;
+}
+#emcabezado1{
+    display: flex;
+    font-size: 34px;
+}
+#frase_encabezado{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav a {
+    display: inline-block;
+}
 button{
     padding: 0;
     margin-top: 10px;
 }
-a{
-    color: aliceblue;
-    text-decoration: none;
-    margin-top: 20px;
-}
+
 img{
     border-radius: 2rem;
 }
@@ -66,31 +91,50 @@ article{
     margin: 5%;
     font-size: 32px;
 }
-div{
-    margin: auto;
-    display: flex;
-    height: auto;
-    font-size: 32px;
-    width: 1200px;
-}
+
 #siloone{
-    font-size: 35px;
+    font-size: 22px;
+    text-align: center;
 }
 #siloone:hover{
-    font-size: 35px;
     color: rgb(141, 9, 9);
 }
-#banner_horizontal {
-    border-radius: 5%;
+#div1{
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+
 }
-#emcabezado1{
-    display: flex;
-    position: flex;
-    font-size: 34px;
+#div2{
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+
 }
-#frase_encabezado{
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+#div3{
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+#div4{
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+#div5{
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+#div_enlace{
+display:flex;
+justify-content:center;
 }
