@@ -22,23 +22,33 @@ h3{
     text-decoration:underline 10px green solid;
     border: 10px solid black;
 }
-li{
-    
+li {
+
     background-color: rgba(0, 0, 0, 0);
     display: inline-block;
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%px;
-    margin-bottom: 50px;
+    margin-right: 75px;
 }
-ol{
+
+ol {
+    display: flex;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     font-size: 10%;
     padding: 0%;
     color: white;
+
+}
+#deco_main_menu {
+    transition: all 0.3s ease;
+}
+
+#deco_main_menu:hover {
+    transition: 0.5s;
+    color: rgb(165, 180, 255);
+    transform: scale(1.2);
 }
 article{
     margin: 5%;
