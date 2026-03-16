@@ -70,10 +70,10 @@ article{
 #banner_horizontal{
 border-radius:5%;
 }
-#emcabezado1{
-    display: flex;
-
-    font-size: 34px;
+#frase_encabezado{
+padding:50px 20px 0 20px;
+font-size:32px;
+max-width:100%;
 }
 #frase_encabezado{
     padding-top: 50px;
