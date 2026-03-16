@@ -1,14 +1,9 @@
+
 body {
-    background-color: lch(11.1% 63.54 304.66);
+    background: radial-gradient(circle, #01082d, #45065a);
     color: aliceblue;
-    padding: auto;
-    text-align: center;
-}
-body {
-    background-color: lch(11.1% 63.54 304.66);
-    color: aliceblue;
-    padding: auto;
-    text-align: center;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
 }
 button{
     padding: 0;
