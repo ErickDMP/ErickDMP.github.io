@@ -163,5 +163,9 @@ footer {
         position: relative;
 
     }
+    article{
+        width: 400px;
+        margin: auto;
+    }
 }
 
