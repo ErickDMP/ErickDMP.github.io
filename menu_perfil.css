@@ -48,3 +48,17 @@ a{
     color: white;
     text-decoration: none;
 }
+#banner_horizontal {
+    border-radius: 5%;
+}
+#emcabezado1{
+    display: flex;
+    position: flex;
+    font-size: 34px;
+}
+#frase_encabezado{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
