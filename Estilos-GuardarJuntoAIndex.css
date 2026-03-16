@@ -1,48 +1,56 @@
-  /*.container 
-  width: 150px; Ancho del cuadro 
-  padding: 20px; /* Espacio entre el texto y los bordes 
-  border: 2px solid #faf8f8;  Borde del cuadro 
-  background-color: #466ef3;  Color de fondo del cuadro 
-  margin-top: 20px;  Espacio fuera del cuadro 
-  margin-bottom: 20px;
-  border-radius: 8px;  Bordes redondeados 
-  text-align: center;  Centra el texto dentro del cuadro 
- */
-body {
-    background: radial-gradient(circle, #01082d, #330244);
-color: aliceblue;
+@media (max-width: 400px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
 }
 
-h1 { 
-    color:rgb(255, 255, 255);
-    
+body {
+    background: radial-gradient(circle, #01082d, #45065a);
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+
     text-align: center;
     font-size: 35px;
 }
-h2 { 
-    color:rgb(255, 255, 255);
+
+h2 {
+    color: rgb(255, 255, 255);
     text-align: right;
     font-size: 35px;
 }
-h3{ 
+
+h3 {
     color: aqua;
     text-align: center;
     font-size: 35px;
-    text-decoration:underline 10px green solid;
+    text-decoration: underline 10px green solid;
     border: 10px solid black;
 }
-li{
-    
+
+li {
+
     background-color: rgba(0, 0, 0, 0);
     display: inline-block;
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%px;
-    margin-bottom: 50px;
+    margin-right: 100px;
 }
-ol{
+
+ol {
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     font-size: 10%;
@@ -50,23 +58,59 @@ ol{
     color: white;
 
 }
+
 article{
-    margin: auto;
-    font-size: 36px;
-      width: 1200px;
+max-width:900px;
+margin:auto;
+font-size:18px;
+line-height:1.7;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-img{
+
+img {
     font-size: medium;
     text-align: center;
 }
-#PRIMERO:hover{
-      color: red;
-    font-size: 40px;
-  
+
+#deco_main_menu {
+    transition: all 0.3s ease;
 }
 
+#deco_main_menu:hover {
+    transition: 0.5s;
+    color: rgb(165, 180, 255);
+    transform: scale(1.2);
+    text-decoration-line: underline;
+}
 
+nav a {
+    display: inline-block;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:25px;
+}
+
+li{
+list-style:none;
+
+}
+#compartir{
+    font-size: 20px;
+}
+#compartir:hover{
+    font-size: 20px;
+    color: rgb(120, 4, 4);
+}
+footer{
+    text-align: center;
+}
+#texto_final{
+    text-align: center;
+}
