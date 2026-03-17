@@ -62,19 +62,22 @@ ol {
     color: rgb(165, 180, 255);
     transform: scale(1.2);
 }
-article{
+article {
     margin: 5%;
-    font-size: 32px;
+        
+    font-size: 18px;
+    line-height: 1.7;
 }
 p{
     color: black;
     text-align: left;
 }
-#siloone{
-    font-size: 35px;
+#siloone {
+    font-size: 28px;
 }
-#siloone:hover{
-    font-size: 35px;
+
+#siloone:hover {
+    font-size: 28px;
     color: rgb(141, 9, 9);
 }
 footer {
