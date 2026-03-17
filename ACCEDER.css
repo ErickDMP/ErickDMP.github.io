@@ -59,6 +59,7 @@ ol {
     color: white;
 
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -101,20 +102,29 @@ footer {
 
 }
 
-#banner_horizontal{
-border-radius:5%;
+#banner_horizontal {
+    border-radius: 5%;
 }
 
-#emcabezado1{
-display:flex;
-align-items:center;
-gap:20px;
-padding:20px;
-flex-wrap:nowrap;
+#emcabezado1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;
 }
 
-#frase_encabezado{
-padding:50px 20px 0 20px;
-font-size:32px;
-max-width:100%;
+#compartir:hover {
+    font-size: 20px;
+    color: rgb(120, 4, 4);
+}
+
+#texto_final {
+    text-align: center;
+}
+
+#frase_encabezado {
+    padding: 50px 20px 0 20px;
+    font-size: 32px;
+    max-width: 100%;
 }

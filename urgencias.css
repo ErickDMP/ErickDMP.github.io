@@ -4,21 +4,25 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
 }
-#banner_horizontal{
-border-radius:5%;
+
+#banner_horizontal {
+    border-radius: 5%;
 }
-#emcabezado1{
-display:flex;
-align-items:center;
-gap:20px;
-padding:20px;
-flex-wrap:nowrap;
+
+#emcabezado1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;
 }
-#frase_encabezado{
-padding:50px 20px 0 20px;
-font-size:32px;
-max-width:100%;
+
+#frase_encabezado {
+    padding: 50px 20px 0 20px;
+    font-size: 32px;
+    max-width: 100%;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -28,39 +32,46 @@ nav {
     border-radius: 10px;
 
 }
+
 a {
     color: white;
     text-decoration: none;
 }
+
 nav a {
     display: inline-block;
 }
-button{
+
+button {
     padding: 0;
     margin-top: 10px;
 }
 
-img{
+img {
     border-radius: 2rem;
 }
-h1 { 
-    color:rgb(255, 255, 255);
-    
+
+h1 {
+    color: rgb(255, 255, 255);
+
     text-align: center;
     font-size: 35px;
 }
-h2 { 
-    color:rgb(255, 255, 255);
+
+h2 {
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 35px;
 }
-h3{ 
+
+h3 {
     color: aqua;
     text-align: center;
     font-size: 35px;
-    text-decoration:underline 10px green solid;
+    text-decoration: underline 10px green solid;
     border: 10px solid black;
 }
+
 li {
 
     background-color: rgba(0, 0, 0, 0);
@@ -80,6 +91,7 @@ ol {
     color: white;
 
 }
+
 #deco_main_menu {
     transition: all 0.3s ease;
 }
@@ -89,57 +101,75 @@ ol {
     color: rgb(165, 180, 255);
     transform: scale(1.2);
 }
-article{
+
+article {
     margin: 5%;
     font-size: 32px;
 }
 
-#siloone{
+#siloone {
     font-size: 22px;
     text-align: center;
 }
-#siloone:hover{
+
+#siloone:hover {
     color: rgb(141, 9, 9);
 }
-#div1{
+
+#div1 {
     max-width: 900px;
     margin: auto;
     font-size: 18px;
     line-height: 1.7;
 
 }
-#div2{
+
+#div2 {
     max-width: 900px;
     margin: auto;
     font-size: 18px;
     line-height: 1.7;
 
 }
-#div3{
+
+#div3 {
     max-width: 900px;
     margin: auto;
     font-size: 18px;
     line-height: 1.7;
 
 }
-#div4{
+
+#div4 {
     max-width: 900px;
     margin: auto;
     font-size: 18px;
     line-height: 1.7;
 
 }
-#div5{
+
+#div5 {
     max-width: 900px;
     margin: auto;
     font-size: 18px;
     line-height: 1.7;
 
 }
-#div_enlace{
-display:flex;
-justify-content:center;
+
+#div_enlace {
+    display: flex;
+    justify-content: center;
 }
+
 footer {
+    text-align: center;
+}
+
+#compartir:hover {
+    font-size: 20px;
+    color: rgb(120, 4, 4);
+}
+
+#texto_final {
     text-align: center;
 }

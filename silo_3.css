@@ -131,3 +131,10 @@ nav {
 footer {
     text-align: center;
 }
+#compartir:hover {
+    font-size: 20px;
+    color: rgb(120, 4, 4);
+}
+#texto_final {
+    text-align: center;
+}

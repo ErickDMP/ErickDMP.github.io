@@ -73,7 +73,7 @@ ol {
 
 article {
     margin: 5%;
-        
+
     font-size: 18px;
     line-height: 1.7;
 }
@@ -83,10 +83,12 @@ article {
     color: white;
     text-align: center;
 }
-#silo_article{
+
+#silo_article {
     font-size: 18px;
 }
-#silo_article:hover{
+
+#silo_article:hover {
     font-size: 18px;
     color: red;
 }
@@ -127,6 +129,16 @@ nav {
     border-radius: 10px;
 
 }
+
 footer {
+    text-align: center;
+}
+
+#compartir:hover {
+    font-size: 20px;
+    color: rgb(120, 4, 4);
+}
+
+#texto_final {
     text-align: center;
 }
