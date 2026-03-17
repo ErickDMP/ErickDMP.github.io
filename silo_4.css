@@ -87,10 +87,10 @@ article {
 }
 
 #silo_enlace:hover {
-    font-size: 28px;
+    font-size: 22px;
+    transition: 0.5s;
     color: rgb(141, 9, 9);
 }
-
 #banner_horizontal{
 border-radius:5%;
 }

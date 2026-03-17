@@ -88,13 +88,14 @@ article {
     font-size: 18px;
 }
 
-#silo_article:hover {
-    font-size: 18px;
-    color: red;
+#silo_enlace:hover {
+    font-size: 22px;
+    transition: 0.5s;
+    color: rgb(141, 9, 9);
 }
 
 #silo_enlace {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #silo_enlace:hover {
