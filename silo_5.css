@@ -74,6 +74,7 @@ article {
 }
 #silo_article:hover{
     font-size: 18px;
+    text-decoration: none;
     color: red;
 }
 #lugar_seguro {

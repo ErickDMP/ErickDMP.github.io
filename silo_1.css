@@ -91,6 +91,7 @@ article {
 #silo_article:hover {
     font-size: 18px;
     color: red;
+    text-decoration: none;
 }
 
 #silo_enlace:hover {
