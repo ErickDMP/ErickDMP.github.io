@@ -86,6 +86,7 @@ article {
 
 #silo_article {
     font-size: 18px;
+    text-decoration: underline 1px solid white;
 }
 
 #silo_article:hover {
@@ -95,6 +96,7 @@ article {
 
 #silo_enlace {
     font-size: 20px;
+    
 }
 
 #silo_enlace:hover {
