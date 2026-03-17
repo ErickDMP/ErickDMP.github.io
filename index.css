@@ -141,13 +141,8 @@ footer {
 
     ol {
         flex-direction: column;
-        margin: auto;
     }
 
-    nav {
-        width: 400px;
-        height: 300px;
-    }
 
     #banner_horizontal {
         display: none;

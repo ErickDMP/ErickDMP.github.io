@@ -139,3 +139,37 @@ footer {
 #texto_final {
     text-align: center;
 }
+@media screen and (max-width:740px) {
+    body {
+        width: 600px;
+        margin: auto;
+    }
+
+    ol {
+        flex-direction: column;
+    }
+
+
+    #banner_horizontal {
+        display: none;
+    }
+
+    #emcabezado1 {
+        display: none;
+    }
+
+    #frase_encabezado {
+        display: none;
+    }
+
+    #banner_encabezado_horizontal {
+        display: flex;
+        position: relative;
+
+    }
+
+    article {
+        width: 400px;
+        margin: auto;
+    }
+}
