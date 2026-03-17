@@ -75,24 +75,21 @@ article {
     font-size: 18px;
     color: red;
 }
-p{
-    color: black;
-    text-align: left;
+#lugar_seguro {
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
-#siloone {
+
+#silo_enlace {
     font-size: 28px;
 }
 
-#siloone:hover {
+#silo_enlace:hover {
     font-size: 28px;
     color: rgb(141, 9, 9);
 }
-footer {
-  position: absolute;
-  bottom: 0;
-color:white;
 
-}
 #banner_horizontal{
 border-radius:5%;
 }
@@ -120,5 +117,3 @@ nav {
 footer {
     text-align: center;
 }
-
-
