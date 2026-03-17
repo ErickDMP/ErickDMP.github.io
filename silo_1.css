@@ -88,6 +88,10 @@ article {
     font-size: 18px;
     text-decoration: underline 1px solid white;
 }
+#silo_article:hover {
+    font-size: 18px;
+    color: red;
+}
 
 #silo_enlace:hover {
     font-size: 22px;
