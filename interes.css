@@ -113,12 +113,25 @@ nav {
 }
 @media screen and (max-width:740px) {
     body {
-        width: 600px;
-        margin: auto;
+       text-align: center;
+       align-items: center;
+        
     }
 
-    ol {
+     ol {
         flex-direction: column;
+        align-items: center; 
+    }
+
+    li {
+        display: block;    
+        margin: 10px 0;       
+        margin-right: 0;      
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
     }
 
 

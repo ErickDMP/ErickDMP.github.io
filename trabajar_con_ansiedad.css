@@ -104,13 +104,29 @@ nav {
 }
 @media screen and (max-width:740px) {
     body {
-        width: 600px;
-        margin: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
     }
 
     ol {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
+
+    li {
+        display: block;
+        margin: 10px 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
 
 
     #banner_horizontal {
