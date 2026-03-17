@@ -68,6 +68,13 @@ article {
     font-size: 18px;
     line-height: 1.7;
 }
+#silo_article{
+    font-size: 18px;
+}
+#silo_article:hover{
+    font-size: 18px;
+    color: red;
+}
 p{
     color: black;
     text-align: left;

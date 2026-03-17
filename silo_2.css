@@ -83,6 +83,13 @@ article {
     color: white;
     text-align: center;
 }
+#silo_article{
+    font-size: 18px;
+}
+#silo_article:hover{
+    font-size: 18px;
+    color: red;
+}
 
 #silo_enlace {
     font-size: 28px;
