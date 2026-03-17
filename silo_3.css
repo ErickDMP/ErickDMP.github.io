@@ -133,7 +133,8 @@ footer {
     text-align: center;
 }
 #compartir:hover {
-    font-size: 20px;
+    font-size: 22px;
+    transition: 0.5s;
     color: rgb(120, 4, 4);
 }
 #texto_final {
