@@ -151,53 +151,116 @@ footer {
 #texto_final {
     text-align: center;
 }
-@media screen and (max-width:740px) {
+@media screen and (max-width: 420px) {
+
     body {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav {
-        display: flex;
-        justify-content: center;
-    }
-
-    ol {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-
-    li {
-        display: block;
-        margin: 10px 0;
-        margin-right: 0;
-        text-align: center;
-    }
-
-
-
-    #banner_horizontal {
-        display: none;
+        max-width: 420px;
+        margin: 0 auto;
     }
 
     #emcabezado1 {
-        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #banner_horizontal {
+        width: 80%;
     }
 
     #frase_encabezado {
-        display: none;
+        font-size: 18px;
+        padding: 10px;
     }
 
-    #banner_encabezado_horizontal {
-        display: flex;
-        position: relative;
+    nav ol {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+    }
 
+    nav ol li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20px;
     }
 
     article {
-        width: 400px;
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (min-width: 421px) and (max-width: 740px) {
+
+    body {
+        max-width: 740px;
+        margin: 0 auto;
+    }
+
+    #emcabezado1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #banner_horizontal {
+        width: 70%;
+    }
+
+    #frase_encabezado {
+        font-size: 24px;
+    }
+
+    nav ol {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ol li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        font-size: 22px;
+    }
+
+    article {
+        width: 95%;
         margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 741px) {
+
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #emcabezado1 {
+        flex-direction: row;
+    }
+
+    #banner_horizontal {
+        width: 300px;
+    }
+
+    #frase_encabezado {
+        font-size: 32px;
+    }
+
+    nav ol {
+        flex-direction: row;
+    }
+
+    nav li {
+        font-size: 32px;
+        margin: 10px 20px;
     }
 }
