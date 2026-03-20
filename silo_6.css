@@ -168,8 +168,8 @@ footer {
     }
 
     nav ol {
-        display: flex !important;
-        flex-direction: column !important;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         width: 100%;
     }
@@ -210,8 +210,8 @@ footer {
     }
 
     nav ol {
-        display: flex !important;
-        flex-direction: column !important;
+        display: flex ;
+        flex-direction: column ;
         align-items: center;
         width: 100%;
     }
